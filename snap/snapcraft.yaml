@@ -41,6 +41,9 @@ apps:
     daemon: simple
     slots:
       - service
+    plugs:
+      - network
+      - network-bind
 
   pactl:
     command: bin/client-wrapper usr/bin/pactl
