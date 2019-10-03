@@ -1,4 +1,4 @@
-name: pulseaudio
+name: codeverse-pulseaudio
 version: 8.0-4
 summary: PulseAudio sound server
 architectures:
